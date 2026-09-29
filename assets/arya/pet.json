@@ -1,0 +1,9 @@
+{
+  "id": "arya",
+  "displayName": "Arya",
+  "description": "AryaAI's full-body animated assistant.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp",
+  "size": 120,
+  "pin": "bottom-right"
+}

@@ -1,0 +1,43 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-arya-pet/README.md
+/:
+  en: 49e22e9f442d1bf0
+  zh: e8a533ba7365958a
+/deepseek-ai-dsh-client-ui-arya-pet:
+  en: 6a5da07cd4c3e6b0
+  zh: e8ae2e6f64061feb
+/deepseek-ai-dsh-client-ui-arya-pet/summary:
+  en: c746311d9afc0277
+  zh: 8863ffafaff3b677
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/activity-animation:
+  en: b833d07343ec9a81
+  zh: b15396f355d5fc54
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/activity-animation/what-the-model-sees:
+  en: 322cbeb869ecc82d
+  zh: 452bafeca4484eb2
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/activity-animation/token-effect:
+  en: 8ca0271803a0e391
+  zh: 2b5f3af82a60c1e8
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/activity-animation/kv-cache-effect:
+  en: 275df2c9e33b4184
+  zh: dff6a9a8419b491c
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/periodic-pet-summaries:
+  en: 89f174e924ad27a6
+  zh: 736b4dbd24654f8a
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/periodic-pet-summaries/what-the-model-sees:
+  en: 931eb1e4ab56e314
+  zh: 21778c1b1e40b098
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/periodic-pet-summaries/token-effect:
+  en: 19aba3c1ed953a58
+  zh: 59f4e17b3b778179
+/deepseek-ai-dsh-client-ui-arya-pet/model-experience/periodic-pet-summaries/kv-cache-effect:
+  en: 78125e41641da35b
+  zh: 08211601f19c259a
+/deepseek-ai-dsh-client-ui-arya-pet/known-limitations-and-deferred-work:
+  en: bc798a7a8729ecfe
+  zh: 754300de9de6000c
