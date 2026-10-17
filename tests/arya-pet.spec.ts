@@ -2,7 +2,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
-import { detectSpriteVersion, loadPetRegistry } from '../src/registry.js'
+import { detectSpriteVersion, loadPetRegistry } from '../src/registry.ts'
 
 const packageRoot = dirname(dirname(fileURLToPath(import.meta.url)))
 
@@ -24,7 +24,9 @@ describe('built-in Arya pet', () => {
 
   it('keeps every bundled source string in English', async () => {
     const sourceDir = join(packageRoot, 'src')
-    const source = (await Promise.all((await readdir(sourceDir)).filter(name => name.endsWith('.js'))
+    // Both extensions: the registry is TypeScript while the rest of the host half
+    // is still JavaScript, and the rule is about the bundled source, not the file.
+    const source = (await Promise.all((await readdir(sourceDir)).filter(name => /\.(js|ts)$/u.test(name))
       .map(name => readFile(join(sourceDir, name), 'utf8')))).join('\n')
     expect(source).not.toMatch(/\p{Script=Han}/u)
   })

@@ -33,7 +33,7 @@ const packageName = '@deepseek-ai/dsh-client-ui-arya-pet'
 export default defineConfig([
   {
     name: packageName,
-    entry: { index: 'src/index.js' },
+    entry: { index: 'src/index.ts' },
     outDir: 'lib',
     format: ['esm'],
     platform: 'node',

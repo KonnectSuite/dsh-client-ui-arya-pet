@@ -1,0 +1,3 @@
+- insert:
+    - id: arya-pet
+      name: '@deepseek-ai/dsh-client-ui-arya-pet'
