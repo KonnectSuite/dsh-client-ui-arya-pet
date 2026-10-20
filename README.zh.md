@@ -71,7 +71,7 @@ AryaAI 的内置全身宠物会跟随实时会话活动，并支持拖动、固�
 <details>
 <summary>维护者上下文</summary>
 
-修改图集时保留 LICENSE 中的授权声明。
+修改图集时保留 LICENSE 中的授权声明。Client 编译器为导入的 JavaScript 浏览器端代码生成声明；其 `./client` 导出指向 `lib/types/client.d.ts`。
 
 </details>
 

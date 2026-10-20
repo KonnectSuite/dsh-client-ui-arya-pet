@@ -68,7 +68,7 @@ No effect on the main agent cache. Summary requests use their own short context.
 <details>
 <summary>Maintainer context</summary>
 
-Retain the LICENSE attribution when changing the atlas.
+Retain the LICENSE attribution when changing the atlas. The Client compiler emits declarations for the imported JavaScript browser half; its `./client` export resolves to `lib/types/client.d.ts`.
 
 </details>
 
