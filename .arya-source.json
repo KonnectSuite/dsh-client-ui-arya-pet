@@ -1,6 +1,6 @@
 {
   "repository": "KonnectSuite/AryaAI",
-  "commit": "0de4008144aac290700a8a69b1916ddd9d3c3c08",
+  "commit": "5bced73f8a9ec3a21407f057e0f37e91d7d13521",
   "path": "packages/client/ui-arya-pet",
   "build": "Build and test in the AryaAI workspace; lib files and resolved package metadata are copied from its packed artifact."
 }
